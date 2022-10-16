@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+html {
+  font-family: Roboto, sans-serif;
+  color: #14213d;
+  scroll-behavior: smooth;
+  background-color: #e5e5e5;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.profession {
+  font-size: 1.5em;
+  font-weight: bold;
+  }
+
+.content {
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.header {
+  background-color: #fca311;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.menu-item {
+  color: #14213d;
+  padding: 10px 8px;
+  display: block;
+}
+
+.title-text {
+  margin: auto;
+}
+
+.main-part {
+  display: flex;
+  padding: 10px;
+}
+
+.main-part div {
+  justify-self: center;
+}
+
+.main-right {
+  padding-left: 5px;
+}
+
+pre {
+  margin: 0;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  padding: 5px;
+}
+
+.photo-project {
+  width: 100%;
+}
+
+h4,
+.project-description {
+  text-align: center;
+  margin: 2px 0 0 0;
+}
+
+.footer {
+  background-color: #fca311;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+footer img {
+  width: 50px;
+}
+
+.github-link, .rss-link {
+height: 50px;
+width: auto;
+}
+
+.date {
+  margin-top: 40px;
+  font-weight: bold;
+}
